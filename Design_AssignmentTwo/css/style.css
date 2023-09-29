@@ -1,0 +1,272 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin:0px;   /*  0 margin, a default value */
+    background-color: #f4f4f4;  /*  a nice white to the eyes of the user*/
+
+}
+
+header{
+    background-color: #0e0e0e; /*  a nice black to the eyes of the user*/
+    display: flex;
+    align-items: center;
+    height: 125px;
+    padding: 0px 25px;
+}
+
+header div{
+    height: 115px;
+    width: auto;
+    flex-grow: 1;  /* pushing navigation to the right */
+}
+
+header img{ /* targets any image */
+    height: 100%;
+    width: auto;
+}
+
+menu{
+    display: flex;
+    margin-bottom: 0px;
+    list-style: none;  /* removes the dots */
+}
+
+menu li {
+    border-right: solid 2px #f4f4f4; /*  a nice white to the eyes of the user*/
+    padding: 0px 10px;
+}
+
+menu li:last-of-type{
+    border-right: none;
+}
+
+a,li{
+    font-family: 'Raleway',sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+    color: #f4f4f4;    /*  a nice white to the eyes of the user*/
+}
+.photo> div>img{
+    width: 100%;
+    height: auto;
+}
+
+main{
+    justify-content: center;
+    text-align: center;
+}
+
+
+footer{
+    background-color: #0e0e0e;  /*  a nice black to the eyes of the user*/
+    height: 160px;
+    display: flex;
+}
+
+footer > div{
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-family: "Road Rage", sans-serif;
+    font-size: 150px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    letter-spacing: 1px;
+
+}
+
+h3{
+    font-family: "Raleway", sans-serif;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 110px;
+    letter-spacing: 1.5px;
+}
+
+h5{
+    font-family: 'Raleway',sans-serif;
+    font-size: 20px;
+    color: #f4f4f4;     /*  a nice white to the eyes of the user*/
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    letter-spacing: 1px;
+}
+
+footer div:nth-child(2){
+    margin-left: auto;  /*With this I move the album cover image to the right corner*/
+    height: 155px;
+}
+
+footer div:nth-child(2) img{
+
+    width: auto;      /*Adjusting the image of the footer*/
+    height: 100%;
+}
+
+menu a:hover{
+    font-weight: 600;  /*range from 100 to 900*/
+}
+
+menu a:visited{
+    color:cornflowerblue;
+}
+
+menu a:active{
+    color: crimson;
+}
+
+
+/*  from this point it is kind of messy, like the mood of the song */
+/* the following are all the different classes */
+
+.calm{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 40px;
+}
+
+.soft{
+    font-family: "Fuggles", sans-serif;
+    font-size: 65px;
+}
+
+.rose{
+    color:hotpink;
+    font-style: italic;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.over{
+    font-family: "Dancing Script", sans-serif;
+    color: dodgerblue;
+}
+
+.ragebegin{
+    font-family: "Anton", sans-serif;
+    font-size: 40px;
+    letter-spacing: 1.5px;
+
+}
+
+.rageincreases{
+    font-family: "Rubik Marker Hatch", sans-serif;
+    font-size: 40px;
+}
+
+.ragerage{
+    font-family: "Eater", sans-serif;
+    font-size: 40px;
+}
+
+.finalrage{
+    font-family: Hurtful;
+
+    font-size: 220px;
+    line-height: 0.6;
+    color:#8a0303;
+
+}
+
+.big {
+    font-size: 55px;
+}
+
+@font-face {
+    /* our custom name for the font*/
+    font-family: Hurtful;
+    /* link our font file */
+    src: url("../font/PunkTypewriter.otf");
+    /* now we can use the font*/
+}
+
+.hurt{
+    font-family: Hurtful;
+    font-size: 80px;
+    color:#8a0303;
+}
+.replaced{
+    font-family: "Special Elite", sans-serif;
+    font-size: 40px;
+    color:red;
+    margin-top: 1%;
+}
+
+.margtop {
+    margin-top: -20px;
+}
+
+.pervert{
+    font-family: "Rubik Bubbles", sans-serif;
+    color: #e62020;
+    letter-spacing: 8px;
+}
+
+.nice{
+    font-family: "Rampart One", sans-serif;
+    color: #1E90FF;
+}
+
+.bigg{          /* it is not a typo, the name of the class is  really "bigg" */
+    font-family: "Road Rage", sans-serif;
+    font-size: 130px;
+}
+
+.green{
+    font-family: "Caveat", sans-serif;
+    font-size: 60px;
+    color:#228B22;
+}
+
+.mess{
+    font-family: "Reenie Beanie", sans-serif;
+    font-size: 90px;
+    color:#808000;
+    letter-spacing: 10px;
+
+}
+
+.red{
+    color: #e62020;
+    font-size: 55px;
+}
+
+
+.justred {
+    color: #e62020;
+}
+
+.justrose{
+    color:deeppink;
+}
+
+.bloody{
+    font-family: "Nosifer", sans-serif;
+    color: #e62020;
+}
+
+.mundane{
+    font-family: "Syne Tactile", sans-serif;
+    color:#D6BD68;
+}
+
+.cross{
+    background-image: url("../img/cross.png"); /*image of a red cross for a background of the text*/
+    background-size: cover;
+}
+
+.sectionend{
+    padding: 3%;
+}
+
+.shadow{
+    text-shadow: 3px 3px 3px rgba(0,0,0,.5);
+}
+
+.bug{
+    font-family: "Lucida Console", monospace;
+    color:darkgoldenrod;
+}
